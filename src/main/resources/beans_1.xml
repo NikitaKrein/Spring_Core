@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <bean id="employeeService"
+          class="task_1.service.EmployeeService">
+    </bean>
+
+    <bean id="positionService"
+          class="task_1.service.PositionService">
+    </bean>
+
+    <bean id="salaryService"
+          class="task_1.service.SalaryService">
+    </bean>
+
+
+    <bean id="bigSalary"
+          class="task_1.bean.Salary">
+        <constructor-arg value="500"/>
+    </bean>
+
+    <bean id="middleSalary"
+          class="task_1.bean.Salary">
+        <constructor-arg value="300"/>
+    </bean>
+
+    <bean id="lowSalary"
+          class="task_1.bean.Salary">
+        <constructor-arg value="100"/>
+    </bean>
+
+    <bean id="salary"
+          class="task_1.bean.Salary">
+        <constructor-arg value="#{T(java.lang.Math).random() * 1000}"/>
+    </bean>
+
+    <bean id="baristaSalary"
+          class="task_1.bean.Salary">
+        <constructor-arg value="#{T(java.lang.Math).random() * 100}"/>
+    </bean>
+
+
+    <bean id="barista"
+          class="task_1.bean.Position">
+        <constructor-arg value="Barista"/>
+        <constructor-arg ref="baristaSalary"/>
+    </bean>
+
+    <bean id="junior"
+          class="task_1.bean.Position">
+        <constructor-arg value="Junior"/>
+        <constructor-arg ref="lowSalary"/>
+    </bean>
+
+    <bean id="middle"
+          class="task_1.bean.Position">
+        <constructor-arg value="Middle"/>
+        <constructor-arg ref="middleSalary"/>
+    </bean>
+
+    <bean id="senior"
+          class="task_1.bean.Position">
+        <constructor-arg value="Senior"/>
+        <constructor-arg ref="bigSalary"/>
+    </bean>
+
+    <bean id="boss"
+          class="task_1.bean.Position">
+        <constructor-arg value="BOSS"/>
+        <constructor-arg ref="salary"/>
+    </bean>
+
+
+    <bean id="firstEmployee"
+          class="task_1.bean.Employee">
+        <constructor-arg value="Nik"/>
+    </bean>
+
+    <bean id="secondEmployee"
+          class="task_1.bean.Employee">
+        <constructor-arg value="Victoria"/>
+    </bean>
+
+    <bean id="thirdEmployee"
+          class="task_1.bean.Employee">
+        <constructor-arg value="Geno"/>
+    </bean>
+
+    <bean id="fourthlyEmployee"
+          class="task_1.bean.Employee">
+        <constructor-arg value="Margaret"/>
+    </bean>
+
+    <bean id="fifthEmployee"
+          class="task_1.bean.Employee">
+        <constructor-arg value="Tim"/>
+    </bean>
+
+
+</beans>
