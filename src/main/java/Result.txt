@@ -1,0 +1,96 @@
+The boss Tim hired employees:
+Tim - BOSS - 402$
+Nik - Barista - 7$
+Victoria - Junior - 100$
+Geno - Middle - 300$
+Margaret - Senior - 500$
+
+
+January
+Tim - BOSS - 134$
+Nik - Barista - 7$
+Victoria - Junior - 100$
+Geno - Middle - 300$
+Margaret - Senior - 500$
+
+
+February
+Tim - BOSS - 134$
+Nik - Barista - 7$
+Victoria - Junior - 23$
+Geno - Middle - 300$
+Margaret - Senior - 500$
+
+
+March
+Tim - BOSS - 134$
+Nik - Barista - 3$
+Victoria - Junior - 23$
+Geno - Middle - 300$
+Margaret - Senior - 500$
+
+
+April
+Delete Barista Nik
+Tim - BOSS - 134$
+Victoria - Junior - 41$
+Geno - Middle - 300$
+Margaret - Senior - 500$
+
+
+May
+Tim - BOSS - 134$
+Victoria - Junior - 41$
+Geno - Middle - 300$
+Margaret - Senior - 284$
+
+
+June
+Tim - BOSS - 134$
+Victoria - Junior - 41$
+Geno - Middle - 416$
+Margaret - Senior - 284$
+
+
+July
+Tim - BOSS - 134$
+Victoria - Junior - 41$
+Geno - Middle - 416$
+Margaret - Senior - 284$
+
+
+August
+Tim - BOSS - 134$
+Victoria - Junior - 41$
+Geno - Middle - 416$
+Margaret - Senior - 284$
+
+
+September
+Tim - BOSS - 134$
+Victoria - Junior - 1$
+Geno - Middle - 416$
+Margaret - Senior - 284$
+
+
+October
+Tim - BOSS - 134$
+Victoria - Junior - 1$
+Geno - Middle - 416$
+Margaret - Senior - 284$
+
+
+November
+Tim - BOSS - 247$
+Victoria - Junior - 1$
+Geno - Middle - 416$
+Margaret - Senior - 284$
+
+
+December
+Add Nik on position Junior
+Tim - BOSS - 247$
+Victoria - Junior - 1$
+Nik - Junior - 1$
+Geno - Middle - 755$
+Margaret - Senior - 284$
